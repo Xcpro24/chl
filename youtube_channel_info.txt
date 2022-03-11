@@ -2,4 +2,4 @@
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
 ABC News | English | https://s.abcnews.com/assets/beta/assets/abcn_images/abcnews_pearl_stacked.png |
-https://www.youtube.com/watch?v=ylzbp6FusfY
+https://www.youtube.com/channel/UCup3etEdjyF1L3sRbU-rKLw/live
