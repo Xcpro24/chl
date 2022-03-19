@@ -13,12 +13,12 @@ def grab(url):
     response = s.get(url, timeout=15).text
     if '.m3u8' not in response:
         if windows:
-            print('../Xcpro24/chl/assets/eror404.png')
+            print('http://1forallweb.weebly.com/uploads/4/0/7/4/40745081/musictop_orig.jpeg')
             return
         os.system(f'wget {url} -O temp.txt')
         response = ''.join(open('temp.txt').readlines())
         if '.m3u8' not in response:
-            print('../Xcpro24/chl/assets/eror404.png')
+            print('http://1forallweb.weebly.com/uploads/4/0/7/4/40745081/musictop_orig.jpeg')
             return
     end = response.find('.m3u8') + 5
     tuner = 100
