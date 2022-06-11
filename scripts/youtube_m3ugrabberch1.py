@@ -25,8 +25,8 @@ def grab(url):
     while True:
         if 'https://' in response[end-tuner : end]:
             link = response[end-tuner : end]
-            start = link.find('https://4gtvfreemobile')
-            end = link.find('=0') + 5
+            start = link.find('https://')
+            end = link.find('.m3u8') + 5
             break
         else:
             tuner += 5
@@ -40,7 +40,7 @@ print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
 s = requests.Session()
-with open('../youtube_channel_infoch1.txt') as f:
+with open('../youtube_channel_info.txt') as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
@@ -56,4 +56,4 @@ with open('../youtube_channel_infoch1.txt') as f:
             
 if 'temp.txt' in os.listdir():
     os.system('rm temp.txt')
-    os.system('rm watch*') 
+    os.system('rm watch*')
