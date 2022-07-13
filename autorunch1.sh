@@ -6,6 +6,6 @@ python3 -m pip install requests
 
 cd $(dirname $0)/scripts/
 
-python3 youtube_m3ugrabberch1.py > ../youtubech1.m3u8
+python3 ch2.py > ../ch2.m3u8
 
 echo m3u grabbed
