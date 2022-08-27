@@ -23,7 +23,7 @@ def grab(url):
     end = response.find('.m3u8') + 5
     tuner = 100
     while True:
-        if 'https://' in response[end-tuner : end]:
+        if 'http://' in response[end-tuner : end]:
             link = response[end-tuner : end]
             start = link.find('http://139.99.27.33:9998/')
             end = link.find('.m3u8') + 5
