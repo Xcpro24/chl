@@ -25,7 +25,7 @@ def grab(url):
     while True:
         if 'http://' in response[end-tuner : end]:
             link = response[end-tuner : end]
-            start = link.find('http://139.99.27.33:9998/')
+            start = link.find('https://')
             end = link.find('.m3u8') + 5
             break
         else:
