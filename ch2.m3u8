@@ -1,4 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://github.com/Xcpro24/chl/blob/main/assets/Eror404.mp4?raw=true
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1672558744/ei/N-SwY96gN4umhgactYKIBw/ip/172.177.154.96/id/QTz6avPD4Ns.4/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr5---sn-nja7sner.googlevideo.com/playlist_duration/30/manifest_duration/30/vprv/1/playlist_type/DVR/mh/lx/mm/44/mn/sn-nja7sner/ms/lva/mv/u/mvi/5/pl/20/dover/11/pacing/0/keepalive/yes/fexp/24001373,24007246/mt/1672536345/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,vprv,playlist_type/sig/AOq0QJ8wRQIhAOnhf7WnL_9kd_EZ9-OGUw7r0hjuejxqL64K4Nzu1lLjAiBXtEvUQF1kh1pPFpeSuAuAWPmfjKEzZ4xbfg9Lip3tYw%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgUZ--m07iy0tK0iFDFFZujyRrprp-zMgIg2MfTM3wcNUCICHv89iCUOfxl1kM0lWeaSW8oH-cNlE1Z_yUc9VmV6MU/playlist/index.m3u8
