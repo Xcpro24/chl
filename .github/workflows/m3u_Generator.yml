@@ -54,6 +54,12 @@ jobs:
           chmod +x autorunch2.sh
           ./autorunch2.sh
 
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch3.sh
+          ./autorunch3.sh
+
       - name: git add
         run: |
           git add -A
