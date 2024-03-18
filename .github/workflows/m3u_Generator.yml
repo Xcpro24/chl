@@ -66,25 +66,25 @@ jobs:
           chmod +x autorunch4.sh
           ./autorunch4.sh
 
-       - name: Main
+      - name: Main
         run: |
           pwd
           chmod +x autorunch5.sh
           ./autorunch5.sh
 
-        - name: Main
+      - name: Main
         run: |
           pwd
           chmod +x autorunch6.sh
           ./autorunch6.sh
 
-        - name: Main
+      - name: Main
         run: |
           pwd
           chmod +x autorunch7.sh
           ./autorunch7.sh
 
-        - name: Main
+      - name: Main
         run: |
           pwd
           chmod +x autorunch8.sh
