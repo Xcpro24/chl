@@ -120,6 +120,12 @@ jobs:
           chmod +x autorunch13.sh
           ./autorunch13.sh
 
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch14.sh
+          ./autorunch14.sh
+
       - name: git add
         run: |
           git add -A
