@@ -108,6 +108,18 @@ jobs:
           chmod +x autorunch11.sh
           ./autorunch11.sh
 
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch12.sh
+          ./autorunch12.sh
+
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch13.sh
+          ./autorunch13.sh
+
       - name: git add
         run: |
           git add -A
