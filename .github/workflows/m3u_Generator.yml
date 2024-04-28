@@ -96,6 +96,18 @@ jobs:
           chmod +x autorunch9.sh
           ./autorunch9.sh
 
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch10.sh
+          ./autorunch10.sh
+
+      - name: Main
+        run: |
+          pwd
+          chmod +x autorunch11.sh
+          ./autorunch11.sh
+
       - name: git add
         run: |
           git add -A
