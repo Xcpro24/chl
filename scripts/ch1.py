@@ -55,5 +55,5 @@ with open('../ch1.txt') as f:
             grab(line)
             
 if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
+    #os.system('rm temp.txt')
     os.system('rm watch*')
